@@ -1,0 +1,51 @@
+.escape-room {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #252525;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 204, 0, 0.2);
+  }
+  
+  .escape-room h2 {
+    text-align: center;
+    color: #00cc00;
+    margin-bottom: 20px;
+  }
+  
+  .escape-room p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .puzzle input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #e0e0e0;
+  }
+  
+  .puzzle button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #00cc00;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .puzzle button:hover {
+    background-color: #00e600;
+  }
+  
+  .result h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }

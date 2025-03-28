@@ -1,0 +1,63 @@
+.resources {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .resources h2 {
+    font-size: 36px;
+    color: #00cc00;
+    text-shadow: 0 0 10px rgba(0, 204, 0, 0.5);
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 0 auto 30px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #e0e0e0;
+    font-size: 16px;
+  }
+  
+  .resources h3 {
+    font-size: 24px;
+    color: #00cc00;
+    margin: 20px 0 10px;
+  }
+  
+  .resource-card {
+    background-color: #252525;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    text-align: left;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .resource-card:hover {
+    box-shadow: 0 0 15px rgba(0, 204, 0, 0.3);
+  }
+  
+  .resource-card h4 {
+    font-size: 18px;
+    color: #00cc00;
+    margin-bottom: 10px;
+  }
+  
+  .resource-card p {
+    font-size: 14px;
+    color: #e0e0e0;
+  }
+  
+  .resource-card a {
+    color: #00cc00;
+    text-decoration: none;
+  }
+  
+  .resource-card a:hover {
+    text-decoration: underline;
+  }
