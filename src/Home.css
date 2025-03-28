@@ -15,7 +15,7 @@
     font-size: 48px;
     color: #ffffff;
     margin-bottom: 20px;
-    text-shadow: 0 0 10px rgba(0, 204, 0, 0.5);
+    /* text-shadow: 0 0 10px rgba(239, 239, 239, 0.153); */
   }
   
   .hero p {
@@ -78,18 +78,16 @@
     margin-bottom: 20px;
   }
   
-  .start-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #00cc00;
-    color: #1a1a1a;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
-  .start-btn:hover {
-    background-color: #00e600;
-    color: #1a1a1a;
-  }
+.challenge-link {
+  color: #00cc00; /* Bright green color */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.challenge-link:hover {
+  color: #27ae60; /* Slightly darker green on hover */
+  text-decoration: underline;
+}

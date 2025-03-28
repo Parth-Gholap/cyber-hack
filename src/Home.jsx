@@ -7,7 +7,7 @@ const challenges = [
     id: 1,
     title: 'Security Quiz',
     desc: 'Test your knowledge about social engineering attacks and threats.',
-    icon: 'sx.png', // Icon file name in public/
+    icon: 'sx.png',
     path: '/games/security-quiz',
     isNew: false,
   },
@@ -15,23 +15,23 @@ const challenges = [
     id: 2,
     title: 'Cyber Escape Room',
     desc: 'Solve a series of cybersecurity puzzles to escape from a virtual hacker trap.',
-    icon: 'escape-room-icon.png', // Icon file name in public/
+    icon: 'escape-room-icon.png',
     path: '/games/escape-room',
-    isNew: true,
+    isNew: false,
   },
   {
     id: 3,
     title: 'Capture The Flag',
     desc: 'Complete hacking-related tasks to find hidden flags and earn points.',
-    icon: 'escape-room-icon.png', // Icon file name in public/
+    icon: 'escape-room-icon.png',
     path: '/games/ctf',
-    isNew: true,
+    isNew: false,
   },
   {
     id: 4,
     title: 'Attack Simulator',
     desc: 'React to threats in real-time.',
-    icon: 'attack-sim-icon.png', // Icon file name in public/
+    icon: 'attack-sim-icon.png',
     path: '/games/attack-sim',
     isNew: false,
   },
@@ -39,7 +39,7 @@ const challenges = [
     id: 5,
     title: 'Hack The Hacker',
     desc: 'Decrypt and analyze.',
-    icon: 'hack-hacker-icon.png', // Icon file name in public/
+    icon: 'hack-hacker-icon.png',
     path: '/games/hack-hacker',
     isNew: false,
   },
@@ -61,8 +61,8 @@ function Home() {
             <img src={`/${challenge.icon}`} alt={challenge.title} className="challenge-icon" />
             <h3>{challenge.title}</h3>
             <p>{challenge.desc}</p>
-            <Link to={challenge.path} className="start-btn">
-              Start Challenge
+            <Link to={challenge.path} className="challenge-link">
+              Start Challenge →
             </Link>
           </div>
         ))}

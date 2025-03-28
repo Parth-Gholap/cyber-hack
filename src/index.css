@@ -5,8 +5,8 @@
 
 .hero h1 {
   font-size: 48px;
-  color: #00cc00;
-  text-shadow: 0 0 10px rgba(0, 204, 0, 0.5);
+  color: #ffffff;
+  /* text-shadow: 0 0 10px rgba(0, 204, 0, 0.5); */
 }
 
 .hero p {
